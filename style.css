@@ -162,10 +162,10 @@ a:hover{
 .img{
     width: 350px;
     height: 300px;
-    padding-left: 13%;
-    padding-right: 13%;
-    padding-top: 0%;
-    padding-bottom: 0%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     border-radius: 50%;
     cursor: pointer;
     transition: filter 0.3s;
@@ -174,4 +174,8 @@ a:hover{
 }
 .greyscale{
     filter: grayscale(100%);
+}
+.section__text{
+    padding-left: 45%;
+    text-align: center;
 }

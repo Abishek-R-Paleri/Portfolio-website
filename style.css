@@ -131,9 +131,12 @@ a:hover{
 
 
 .res {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     border-width: 10px;
     margin-left: 40%;
-    display: inline;
+    display: inline-block;
     padding: 15px 60px;               /* Add padding for better appearance */
     font-size: 24px;                  /* Adjust font size */
     text-align: center;               /* Center the text */
@@ -142,6 +145,7 @@ a:hover{
     color: white;                     /* White text color */
     border-radius: 25px;              /* Rounded corners */
     transition: background-color all 0.3s ease-in-out; /* Smooth transition for background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* Change the background color on hover */
@@ -149,6 +153,25 @@ a:hover{
     background-color: #5b5b5b;        /* Darker blue on hover */
 }
 .cv{
+    display: block;
     height: 100%;
     overflow: hidden;
+    object-fit: contain;
+
+}
+.img{
+    width: 350px;
+    height: 300px;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: filter 0.3s;
+    
+    
+}
+.greyscale{
+    filter: grayscale(100%);
 }

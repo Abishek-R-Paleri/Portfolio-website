@@ -4,3 +4,8 @@ function toggleMenu(){
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+const image = document.getElementById("pro");
+
+        image.addEventListener("click", () => {
+            image.classList.toggle("greyscale"); // Toggle grayscale class on click
+        })

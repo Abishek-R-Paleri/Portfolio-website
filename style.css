@@ -128,3 +128,27 @@ a:hover{
 .ham-icon span:first-child{
     transform: none;
 }
+
+
+.res {
+    border-width: 10px;
+    margin-left: 40%;
+    display: inline;
+    padding: 15px 60px;               /* Add padding for better appearance */
+    font-size: 24px;                  /* Adjust font size */
+    text-align: center;               /* Center the text */
+    text-decoration: none;            /* Remove underline */
+    background-color: #000000;       /* Blue background color */
+    color: white;                     /* White text color */
+    border-radius: 25px;              /* Rounded corners */
+    transition: background-color all 0.3s ease-in-out; /* Smooth transition for background color */
+}
+
+/* Change the background color on hover */
+.res:hover {
+    background-color: #5b5b5b;        /* Darker blue on hover */
+}
+.cv{
+    height: 100%;
+    overflow: hidden;
+}
